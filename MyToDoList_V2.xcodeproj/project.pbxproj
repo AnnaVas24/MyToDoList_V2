@@ -73,16 +73,64 @@
 		514BC29427AAC79700DAC017 /* MyToDoList_V2 */ = {
 			isa = PBXGroup;
 			children = (
-				514BC29527AAC79700DAC017 /* AppDelegate.swift */,
-				514BC29927AAC79700DAC017 /* ListViewController.swift */,
-				514BC2AD27AD4CAE00DAC017 /* ShowAlert.swift */,
-				514BC2AB27AAD41D00DAC017 /* StorageManager.swift */,
-				514BC2A927AACFB900DAC017 /* task.swift */,
-				514BC29E27AAC79800DAC017 /* Assets.xcassets */,
-				514BC2A027AAC79800DAC017 /* LaunchScreen.storyboard */,
+				514BC2AF27AD7D4300DAC017 /* AppFiles */,
+				514BC2B027AD7D6400DAC017 /* ViewControllers */,
+				514BC2B327AD7D9100DAC017 /* Services */,
+				514BC2B127AD7D7B00DAC017 /* Model */,
+				514BC2B227AD7D8600DAC017 /* Sources */,
+				514BC2B427AD7DA200DAC017 /* StoryBoard */,
 				514BC2A327AAC79800DAC017 /* Info.plist */,
 			);
 			path = MyToDoList_V2;
+			sourceTree = "<group>";
+		};
+		514BC2AF27AD7D4300DAC017 /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				514BC29527AAC79700DAC017 /* AppDelegate.swift */,
+			);
+			path = AppFiles;
+			sourceTree = "<group>";
+		};
+		514BC2B027AD7D6400DAC017 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				514BC29927AAC79700DAC017 /* ListViewController.swift */,
+				514BC2AD27AD4CAE00DAC017 /* ShowAlert.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		514BC2B127AD7D7B00DAC017 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				514BC2A927AACFB900DAC017 /* task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		514BC2B227AD7D8600DAC017 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				514BC29E27AAC79800DAC017 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		514BC2B327AD7D9100DAC017 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				514BC2AB27AAD41D00DAC017 /* StorageManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		514BC2B427AD7DA200DAC017 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				514BC2A027AAC79800DAC017 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 		614EFD32A84E7ADDFDC1FC05 /* Pods */ = {
