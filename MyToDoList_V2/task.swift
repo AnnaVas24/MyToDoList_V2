@@ -7,6 +7,7 @@
 
 import RealmSwift
 
-class task: Object {
+class Task: Object {
     @Persisted var name = ""
+    @Persisted var isCompleted = false
 }
